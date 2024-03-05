@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>ChallengeAlura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Assets/Logo.svg" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="conteudo__secção">
+            <div class="parte__1">
+                <textarea class="caixadetexto" spellcheck="false" cols="50" rows="15" maxlength="500" placeholder="Digite seu texto aqui"></textarea>   
+            <a class="alerta">
+                <img src="Assets/alerta.svg" alt="alerta">
+                <p>Apenas letras minusculas sem acento</p>
+            </a> 
+            <a class="botoes">
+                <input type="button" class="botao1" value="encriptar">
+                <input type="button" class="botao2" value="desencriptar">
+            </a>
+            </div>
+        
+            <div class="parte2">
+         
+               
+            <h1 class="conteudo__paragrafo">
+                <img class="foto" src="Assets/Muñeco.svg"><br>
+                <h3 class="msg1__2parte"> Nenhuma mensagem <br> encontrada</h3> <br>
+                <p class="msg2__2parte">Digite um texto que você deseja criptografar ou <br> descriptografar.</p>
+            </h1>
+            <h1 class="caixa__resultado">
+                <p class="texto__resultado"></p>
+            </h1>
+            <a class="conteudo__copiar">
+                <button onclick="copiartexto()" id="copiar" class="botao__copiar" disabled>Copiar</button>
+            </a>
+        
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>

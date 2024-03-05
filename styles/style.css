@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  padding-top: 1%;
+}
+body{
+  height: 100vh;
+  box-sizing: border-box;
+  background: linear-gradient(185deg, #363636,white);
+}
+main{
+padding-top: 2%;
+}
+.conteudo__secção{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%; 
+  gap: 8%;
+}
+.parte__1{
+  padding-top: 4%;
+  padding-left: 10%;
+}
+.caixadetexto{
+  display: flex; 
+  
+  border: none;
+  background-color: #f4f4fc;
+  cursor: pointer;
+  color: #0A3871;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif; 
+  border: none;
+}
+.alerta{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;  
+}
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+.botao1{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #0A3871;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.botao1:hover{
+  background-color: blue;
+  color: white;
+}
+.botao2{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #0A3871;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.botao2:hover{
+  background-color: blue;
+  color: white;
+}
+.parte2{
+  display:block;
+  flex-direction:column;
+  text-align: center;
+  box-sizing: border-box;
+  gap: 32px;
+  width: 20%;
+  padding-bottom: 5%;
+  border-radius: 32px;
+  box-shadow: 10px 20px 150px black;
+}
+.caixa__resultado{
+  padding-top: 12%;
+  text-align: center;
+}
+.foto{
+  padding-top: 30px; 
+}
+.conteudo__paragrafo{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  text-align: center;
+  padding-top: 50px;  
+}
+.conteudo__copiar{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.botao__copiar{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #0A3871;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  cursor: pointer;
+  transition:2s;
+}
+.ocultar{
+  display: none;
+}
+button:disabled {
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+
+
